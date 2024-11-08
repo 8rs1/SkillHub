@@ -1142,7 +1142,6 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     gap: 5px;
     margin-top: 50px;
     margin-right: 50px;
@@ -1190,13 +1189,9 @@ header {
 
   .step-arrow .line {
     display: none;
-    /* width: 150px;
-      height: 3px;
-      background-color: #FF5656;
-      margin-top: -45px; */
   }
 
-  bg-square {
+  .bg-square {
     width: 50%;
     height: 500px;
     border-radius: 20px;
@@ -1619,9 +1614,7 @@ header {
   }
 
   .badge {
-    /* padding: 10px 20px; */
     font-size: 10px;
-    /* width: 60%; */
     justify-content: flex-start;
   }
 
@@ -1643,9 +1636,6 @@ header {
     font-size: 15px;
     color: #7d7d7d;
     margin-bottom: 40px;
-    /* max-width: 200px; */
-    /* margin-left: 100px;
-      margin-right: 100px; */
     line-height: 150%;
   }
 
@@ -1764,7 +1754,6 @@ header {
 
   .app-demo-section h2 {
     text-align: center !important;
-
     font-size: 10px;
   }
 
@@ -1885,10 +1874,6 @@ header {
 
   .step-arrow .line {
     display: none;
-    /* width: 150px;
-      height: 3px;
-      background-color: #FF5656;
-      margin-top: -45px; */
   }
 
   .cta-banner {
@@ -2129,7 +2114,6 @@ header {
     width: 70%;
     justify-content: center;
     align-items: center;
-    /* margin-left: 110px; */
   }
 
   .download-icons img {
@@ -2145,7 +2129,6 @@ header {
 
   .results-section {
     padding: 70px !important;
-    /* padding-right: 0 !important; */
     justify-content: center;
   }
 
