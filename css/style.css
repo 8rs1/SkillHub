@@ -1191,17 +1191,6 @@ header {
     display: none;
   }
 
-  .bg-square {
-    width: 50%;
-    height: 500px;
-    border-radius: 20px;
-    background-color: #edf2f6;
-    background-image: linear-gradient(to right, #fff 1px, transparent 1px),
-      linear-gradient(to bottom, #fff 1px, transparent 1px);
-    background-size: 100px 100px;
-    margin-top: 70px;
-  }
-
   .features-divs {
     display: flex;
     /* flex-direction: column; */
@@ -1281,7 +1270,7 @@ header {
     transition: background-color 0.3s ease;
     margin: 50px;
     /* width: 50%; */
-    height: 45px;
+    /* height: 45px; */
   }
 
   .cta-button:hover {

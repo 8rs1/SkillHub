@@ -479,13 +479,13 @@ header {
 .download-card h3 {
   color: #494953;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-block: 10px;
 }
 
 .download-card p {
   color: #6a7efc;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .download-btn {
@@ -864,17 +864,6 @@ header {
 
   .step-arrow .line {
     display: none;
-  }
-
-  bg-square {
-    width: 50%;
-    height: 500px;
-    border-radius: 20px;
-    background-color: #edf2f6;
-    background-image: linear-gradient(to right, #fff 1px, transparent 1px),
-      linear-gradient(to bottom, #fff 1px, transparent 1px);
-    background-size: 100px 100px;
-    margin-top: 70px;
   }
 
   .features-divs {
