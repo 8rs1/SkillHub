@@ -11,8 +11,14 @@
   <body>
     <header>
       <div class="logo">
-        <img src="./asstes/icons/skillhublogo.svg" alt="SkillHub Logo" />
-        <span>SKILL<span style="color: #615efc">HUB</span></span>
+        <img
+          src="./asstes/icons/skillhublogo.svg"
+          alt="SkillHub Logo"
+          class="logo__image"
+        />
+        <span class="logo__text main-text"
+          >SKILL<span class="main-subtext">HUB</span></span
+        >
       </div>
 
       <input type="checkbox" id="menuToggle" class="menu-toggle" />
@@ -23,13 +29,26 @@
       </label>
 
       <nav class="nav-links">
-        <ul class="menu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./download.html" target="_blank">Download</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <ul class="nav-links__menu">
+          <li>
+            <a class="main-primary-color__hover" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a
+              class="main-primary-color__hover"
+              href="./download.html"
+              target="_blank"
+              >Download</a
+            >
+          </li>
+          <li>
+            <a class="main-primary-color__hover" href="javascript:void(0)"
+              >Contact Us</a
+            >
+          </li>
         </ul>
         <div class="auth-buttons">
-          <a href="./login.html" target="_blank" class="login-btn">Login</a>
+          <a href="./login.html" target="_blank" class="login-btn main-primary-bgcolor__hover">Login</a>
           <a href="./download.html" target="_blank" class="get-app-btn"
             >Get The App</a
           >
@@ -39,13 +58,17 @@
 
     <section class="hero-section">
       <div class="badge">
-        <img src="./asstes/icons/secure.svg" alt="Shield Icon for security" />
-        <span>Wise Skills, Strong Connections</span>
+        <img
+          src="./asstes/icons/secure.svg"
+          alt="Shield Icon for security"
+          class="badge__image"
+        />
+        <span class="badge__text">Wise Skills, Strong Connections</span>
       </div>
 
-      <h1>
-        <span class="highlight"
-          >SKILL<span style="color: #615efc; font-family: DM-Sans-ExtraBold"
+      <h1 class="title">
+        <span class="highlight main-primary-color"
+          >SKILL<span style="font-family: DM-Sans-ExtraBold" class="main-secondary-color"
             >HUB</span
           ></span
         >, a Place for Learning <br />and Teaching Skills!
@@ -59,13 +82,13 @@
 
       <div class="download-buttons">
         <a href="./download.html" target="_blank" class="btn ios-btn"
-        ><img
-          src="./asstes/icons/GooglePlayLanding.svg"
-          alt="Download on android"
-        />
-        Download for IOS</a
-      >
-        <a href="./download.html" target="_blank" class="btn android-btn"
+          ><img
+            src="./asstes/icons/GooglePlayLanding.svg"
+            alt="Download on android"
+          />
+          Download for IOS</a
+        >
+        <a href="./download.html" target="_blank" class="btn android-btn main-primary-bgcolor"
           ><img
             src="./asstes/icons/GooglePlayLanding.svg"
             alt="Download on Android"
@@ -159,7 +182,7 @@
     </section>
 
     <section class="how-it-works">
-      <h2 class="section-title b-f-i">– HOW IT WORKS</h2>
+      <h2 class="section-title b-f-i main-primary-color">– HOW IT WORKS</h2>
       <h3 class="section-subtitle">Get to know What To Do</h3>
       <p class="section-description">
         Learn how our platform connects users for skill swapping, fostering
@@ -167,7 +190,7 @@
       </p>
       <div class="steps-container">
         <div class="step-item">
-          <div class="step-icon">
+          <div class="step-icon main-primary-bgcolor">
             <img
               src="./asstes/icons/download.svg"
               alt="Icon for downloading the app"
@@ -180,7 +203,7 @@
           <span class="line"></span>
         </div>
         <div class="step-item">
-          <div class="step-icon">
+          <div class="step-icon main-primary-bgcolor">
             <img src="./asstes/icons/signup.svg" alt="Icon for signing up" />
           </div>
           <h4>Sign Up</h4>
@@ -190,7 +213,7 @@
           <span class="line"></span>
         </div>
         <div class="step-item">
-          <div class="step-icon">
+          <div class="step-icon main-primary-bgcolor">
             <img src="./asstes/icons/swap.svg" alt="Icon for swapping skills" />
           </div>
           <h4>Swap Skills</h4>
@@ -200,7 +223,7 @@
           <span class="line"></span>
         </div>
         <div class="step-item">
-          <div class="step-icon">
+          <div class="step-icon main-primary-bgcolor">
             <img
               src="./asstes/icons/enjoy.svg"
               alt="Icon for enjoying new skills"
@@ -215,7 +238,7 @@
         <div class="bg-square">
           <div class="b-f-c">
             <!--Best Fetures Container-->
-            <h3 class="b-f-i">- BEST FEATURES</h3>
+            <h3 class="b-f-i main-primary-color">- BEST FEATURES</h3>
             <!--Best Features Introduction-->
             <br />
             <h2 class="b-f-t">
@@ -275,7 +298,7 @@
       </section>
 
       <section class="testimonials-section">
-        <h2 class="text-pattern b-f-i" style="font-weight: bold">
+        <h2 class="text-pattern b-f-i main-primary-color" style="font-weight: bold">
           - TESTIMONIAL
         </h2>
         <h2 class="section-title b-f-t">What our clients say</h2>
@@ -368,7 +391,7 @@
                 How does the skill-swapping process work?
                 <span class="faq-icon"></span>
               </label>
-              <div class="faq-answer">
+              <div class="faq-answer main-primary-bgcolor">
                 <p>
                   Users can create profiles showcasing their skills, browse
                   others’ offerings, and connect to arrange skill exchanges,
@@ -382,7 +405,7 @@
                 Is there a limit to the number of skills I can teach or learn?
                 <span class="faq-icon"></span>
               </label>
-              <div class="faq-answer">
+              <div class="faq-answer main-primary-bgcolor">
                 <p>
                   There is no limit! You are free to explore and teach or learn
                   as many skills as you desire.
@@ -395,7 +418,7 @@
                 How do I ensure a successful skill swap with another user?
                 <span class="faq-icon"></span>
               </label>
-              <div class="faq-answer">
+              <div class="faq-answer main-primary-bgcolor">
                 <p>
                   Successful skill swaps are based on clear communication and
                   matching skills that complement each other.
@@ -408,7 +431,7 @@
                 Are there any fees associated with using the platform?
                 <span class="faq-icon"></span>
               </label>
-              <div class="faq-answer">
+              <div class="faq-answer main-primary-bgcolor">
                 <p>
                   No, our platform is free to use. You can explore and
                   participate without any costs.
@@ -424,7 +447,7 @@
     </section>
 
     <section class="download-now-container">
-      <div class="bg-download">
+      <div class="bg-download main-primary-bgcolor">
         <p>Your Ultimate solution for Effortless Skill Changing!</p>
         <br />
         <br />
@@ -455,19 +478,19 @@
       </div>
 
       <div class="social-icons">
-        <a href="#" aria-label="Facebook"
+        <a href="javascript:void(0)" aria-label="Facebook"
           ><img src="./asstes/social-media/Facebook.svg" alt="Facebook"
         /></a>
-        <a href="#" aria-label="Twitter"
+        <a href="javascript:void(0)" aria-label="Twitter"
           ><img src="./asstes/social-media/Twitter.svg" alt="Twitter"
         /></a>
-        <a href="#" aria-label="Instagram"
+        <a href="javascript:void(0)" aria-label="Instagram"
           ><img src="./asstes/social-media/Instagram.svg" alt="Instagram"
         /></a>
-        <a href="#" aria-label="LinkedIn"
+        <a href="javascript:void(0)" aria-label="LinkedIn"
           ><img src="./asstes/social-media/LinkedIn.svg" alt="LinkedIn"
         /></a>
-        <a href="#" aria-label="YouTube"
+        <a href="javascript:void(0)" aria-label="YouTube"
           ><img src="./asstes/social-media/YouTube.svg" alt="YouTube"
         /></a>
       </div>
